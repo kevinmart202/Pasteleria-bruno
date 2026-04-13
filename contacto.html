@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruna Cafe | Contacto</title>
+    <meta
+      name="description"
+      content="Contacto, reservas y ubicacion de Bruna Cafe."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./index.html">
+          <span class="brand__title">Bruna Cafe</span>
+          <span class="brand__subtitle">Cafeteria y pasteleria</span>
+        </a>
+        <nav class="nav__links">
+          <a href="./index.html">Inicio</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a href="./postulate.html">Postulate</a>
+          <a class="is-active" href="./contacto.html">Contacto</a>
+        </nav>
+        <a class="button button--dark" href="./contacto.html">Escribenos</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div>
+            <span class="eyebrow">Visitanos</span>
+            <h1>Reservas, pedidos y una ubicacion comoda para desayunos y tardes de cafe.</h1>
+            <p>
+              Estamos listos para atender reservas, pedidos especiales de pasteleria
+              y consultas sobre eventos pequenos.
+            </p>
+          </div>
+          <div class="card page-hero__media">
+            <img src="./assets/storefront.svg" alt="Fachada ilustrada de cafeteria" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <article class="card contact-card contact-card--dark">
+            <span class="eyebrow eyebrow--light">Informacion</span>
+            <h2>Bruna Cafe</h2>
+            <p><strong>Direccion:</strong> Av. Central 245, zona gastronomica</p>
+            <p><strong>Telefono:</strong> +593 999 456 321</p>
+            <p><strong>Email:</strong> hola@brunacafe.com</p>
+            <p><strong>Horario:</strong> Lunes a domingo, 8:00 a.m. - 8:30 p.m.</p>
+          </article>
+
+          <form class="card contact-form">
+            <label class="field">
+              <span>Nombre</span>
+              <input type="text" placeholder="Tu nombre" />
+            </label>
+            <label class="field">
+              <span>Correo</span>
+              <input type="email" placeholder="tunombre@email.com" />
+            </label>
+            <label class="field">
+              <span>Motivo</span>
+              <select>
+                <option>Reserva</option>
+                <option>Pedido de pasteleria</option>
+                <option>Evento pequeno</option>
+                <option>Consulta general</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Mensaje</span>
+              <textarea rows="5" placeholder="Cuentanos como podemos ayudarte"></textarea>
+            </label>
+            <button class="button button--dark button--full" type="button">Enviar solicitud</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <div>
+          <p class="brand__title">Bruna Cafe</p>
+          <p>Un lugar para disfrutar buena cafeina y vitrina dulce todos los dias.</p>
+        </div>
+        <div class="footer__links">
+          <a href="./index.html">Inicio</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a href="./postulate.html">Postulate</a>
+          <a href="./contacto.html">Contacto</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
