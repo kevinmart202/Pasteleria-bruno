@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruna Cafe | Postulate</title>
+    <meta
+      name="description"
+      content="Formulario de postulacion para trabajar en Bruna Cafe."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./index.html">
+          <span class="brand__title">Bruna Cafe</span>
+          <span class="brand__subtitle">Cafeteria y pasteleria</span>
+        </a>
+        <nav class="nav__links">
+          <a href="./index.html">Inicio</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a class="is-active" href="./postulate.html">Postulate</a>
+          <a href="./contacto.html">Contacto</a>
+        </nav>
+        <a class="button button--dark" href="./postulate.html">Enviar CV</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div>
+            <span class="eyebrow">Formulario de postulacion</span>
+            <h1>Comparte tu perfil y cuentanos en que area te gustaria crecer con nosotros.</h1>
+            <p>
+              Este formulario es exclusivo para postulaciones laborales y esta
+              separado del formulario general de contacto.
+            </p>
+          </div>
+          <div class="card page-hero__media">
+            <img src="./assets/team.svg" alt="Postulacion de talento ilustrada" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <article class="card contact-card">
+            <span class="eyebrow">Antes de enviar</span>
+            <h2>Buscamos personas con actitud, calidez y ganas de aprender.</h2>
+            <p>Puedes aplicar para areas como barismo, salon, cocina, pasteleria o caja.</p>
+            <p>Completa tus datos y cuentanos brevemente tu experiencia, disponibilidad e interes.</p>
+          </article>
+
+          <form class="card contact-form">
+            <label class="field">
+              <span>Nombre completo</span>
+              <input type="text" placeholder="Tu nombre completo" />
+            </label>
+            <label class="field">
+              <span>Correo</span>
+              <input type="email" placeholder="tunombre@email.com" />
+            </label>
+            <label class="field">
+              <span>Telefono</span>
+              <input type="tel" placeholder="+593 ..." />
+            </label>
+            <label class="field">
+              <span>Area de interes</span>
+              <select>
+                <option>Barismo</option>
+                <option>Salon</option>
+                <option>Pasteleria</option>
+                <option>Cocina</option>
+                <option>Caja</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Experiencia</span>
+              <textarea rows="4" placeholder="Cuentanos tu experiencia laboral o academica"></textarea>
+            </label>
+            <label class="field">
+              <span>Disponibilidad</span>
+              <select>
+                <option>Tiempo completo</option>
+                <option>Medio tiempo</option>
+                <option>Fines de semana</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Mensaje adicional</span>
+              <textarea rows="4" placeholder="Por que te gustaria formar parte de Bruna Cafe"></textarea>
+            </label>
+            <button class="button button--dark button--full" type="button">Enviar postulacion</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <div>
+          <p class="brand__title">Bruna Cafe</p>
+          <p>Espacio de postulacion para personas que quieren crecer con nuestro equipo.</p>
+        </div>
+        <div class="footer__links">
+          <a href="./index.html">Inicio</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a href="./postulate.html">Postulate</a>
+          <a href="./contacto.html">Contacto</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
