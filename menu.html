@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruna Cafe | Menu</title>
+    <meta
+      name="description"
+      content="Menu de cafeteria y pasteleria con cafe, bebidas, brunch y postres."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./index.html">
+          <span class="brand__title">Bruna Cafe</span>
+          <span class="brand__subtitle">Cafeteria y pasteleria</span>
+        </a>
+        <nav class="nav__links">
+          <a href="./index.html">Inicio</a>
+          <a class="is-active" href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a href="./postulate.html">Postulate</a>
+          <a href="./contacto.html">Contacto</a>
+        </nav>
+        <a class="button button--dark" href="./contacto.html">Haz tu pedido</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div>
+            <span class="eyebrow">Menu destacado</span>
+            <h1>Una carta simple de explorar, con categorias claras y productos estrella.</h1>
+            <p>
+              Filtra por categoria para revisar bebidas, brunch y postres de la casa.
+            </p>
+          </div>
+          <div class="card page-hero__media">
+            <img src="./assets/menu-board.svg" alt="Menu ilustrado de cafeteria" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container menu-layout">
+          <aside class="card menu-sidebar">
+            <span class="eyebrow">Filtrar menu</span>
+            <div class="filters">
+              <button class="filter-button is-active" data-filter="Todos" type="button">Todos</button>
+              <button class="filter-button" data-filter="Cafe" type="button">Cafe</button>
+              <button class="filter-button" data-filter="Brunch" type="button">Brunch</button>
+              <button class="filter-button" data-filter="Pasteleria" type="button">Pasteleria</button>
+            </div>
+            <div class="featured-item">
+              <img id="featured-image" src="./assets/item-cappuccino.svg" alt="Producto destacado" />
+              <div>
+                <span class="eyebrow">Recomendacion</span>
+                <h2 id="featured-title">Cappuccino clasico</h2>
+                <p id="featured-description">Espuma sedosa, espresso balanceado y leche texturizada.</p>
+                <div class="featured-item__meta">
+                  <strong id="featured-price">$3.50</strong>
+                  <span id="featured-tag">Mas pedido</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <div id="menu-grid" class="menu-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <div>
+          <p class="brand__title">Bruna Cafe</p>
+          <p>Cafe, brunch y postres para disfrutar en mesa o pedir para llevar.</p>
+        </div>
+        <div class="footer__links">
+          <a href="./index.html">Inicio</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./compromiso.html">Compromiso</a>
+          <a href="./talento.html">Talento</a>
+          <a href="./postulate.html">Postulate</a>
+          <a href="./contacto.html">Contacto</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
